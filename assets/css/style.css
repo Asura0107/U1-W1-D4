@@ -48,6 +48,11 @@ ol {
   margin: 30px;
   list-style-type: decimal;
 }
+ul li code {
+  border: 1px solid greys;
+  background-color: #e2e3e4;
+  border-radius: 7px;
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 #mario {
@@ -83,6 +88,24 @@ article h1 + p {
 table {
   text-align: center;
   margin: 30px;
+  width: 300px;
+  border-bottom: 2px solid blue;
+}
+tr:nth-child(even) {
+  background-color: #e2e3e4;
+}
+tr {
+  border: 1px solid white;
+  height: 50px;
+}
+th {
+  border: 1px solid white;
+  color: white;
+  background-color: #6b6bda;
+}
+caption {
+  margin: 4px;
+  font-weight: 400;
 }
 
 /* FORM */
